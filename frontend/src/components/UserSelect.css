@@ -1,0 +1,186 @@
+.user-select-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .user-select-container h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  .select-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  
+  .user-dropdown {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+    color: #34495e;
+    transition: border-color 0.3s ease;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .user-dropdown:focus {
+    border-color: #2ecc71;
+  }
+  
+  .user-dropdown:hover {
+    border-color: #2ecc71;
+  }
+  
+  .select-wrapper::after {
+    content: '▼';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #3498db;
+  }
+  
+  .claim-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .claim-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+  }
+  
+  .claim-button:active {
+    background-color: #1c638d;
+    transform: translateY(1px);
+  }
+  
+  .claim-button.disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 600px) {
+    .user-select-container {
+      padding: 15px;
+      margin: 20px auto;
+    }
+  
+    .claim-button {
+      width: 100%;
+    }
+  }
+  
+.user-select-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .user-select-container h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  .select-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  
+  .user-dropdown {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+    color: #34495e;
+    transition: border-color 0.3s ease;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .user-dropdown:focus {
+    border-color: #2ecc71;
+  }
+  
+  .user-dropdown:hover {
+    border-color: #2ecc71;
+  }
+  
+  .add-user-container {
+    margin-top: 20px;
+  }
+  
+  .new-user-input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .new-user-input:focus {
+    border-color: #2ecc71;
+  }
+  
+  .add-user-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .add-user-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .add-user-button:active {
+    background-color: #1c638d;
+    transform: translateY(1px);
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .claim-button.disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
